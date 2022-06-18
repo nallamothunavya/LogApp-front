@@ -13,8 +13,8 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_548eb1cd from 'nuxt_plugin_plugin_548eb1cd' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_axios_6f5e9d20 from 'nuxt_plugin_axios_6f5e9d20' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_737101ba from 'nuxt_plugin_plugin_737101ba' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_axios_7d824fc6 from 'nuxt_plugin_axios_7d824fc6' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_elementui_d905880e from 'nuxt_plugin_elementui_d905880e' // Source: ..\\plugins\\element-ui (mode: 'all')
 
 // Component: <ClientOnly>
@@ -212,12 +212,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_548eb1cd === 'function') {
-    await nuxt_plugin_plugin_548eb1cd(app.context, inject)
+  if (typeof nuxt_plugin_plugin_737101ba === 'function') {
+    await nuxt_plugin_plugin_737101ba(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_6f5e9d20 === 'function') {
-    await nuxt_plugin_axios_6f5e9d20(app.context, inject)
+  if (typeof nuxt_plugin_axios_7d824fc6 === 'function') {
+    await nuxt_plugin_axios_7d824fc6(app.context, inject)
   }
 
   if (typeof nuxt_plugin_elementui_d905880e === 'function') {

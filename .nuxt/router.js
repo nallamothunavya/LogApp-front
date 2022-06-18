@@ -4,14 +4,14 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _30d8af53 = () => interopDefault(import('..\\pages\\AllUsers.vue' /* webpackChunkName: "pages/AllUsers" */))
-const _8c7f17be = () => interopDefault(import('..\\pages\\CreateUserLog.vue' /* webpackChunkName: "pages/CreateUserLog" */))
-const _09718532 = () => interopDefault(import('..\\pages\\Loghome.vue' /* webpackChunkName: "pages/Loghome" */))
-const _037569a0 = () => interopDefault(import('..\\pages\\SingleLog.vue' /* webpackChunkName: "pages/SingleLog" */))
-const _c9f1166e = () => interopDefault(import('..\\pages\\SuperUserLoghome.vue' /* webpackChunkName: "pages/SuperUserLoghome" */))
-const _073ec720 = () => interopDefault(import('..\\pages\\UpdateUser.vue' /* webpackChunkName: "pages/UpdateUser" */))
-const _38939bb6 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-const _a6bdd8c4 = () => interopDefault(import('..\\pages\\_id.vue' /* webpackChunkName: "pages/_id" */))
+const _6c8dd4b7 = () => interopDefault(import('..\\pages\\AllUsers.vue' /* webpackChunkName: "pages/AllUsers" */))
+const _551f0d3d = () => interopDefault(import('..\\pages\\CreateUserLog.vue' /* webpackChunkName: "pages/CreateUserLog" */))
+const _793448fa = () => interopDefault(import('..\\pages\\Loghome.vue' /* webpackChunkName: "pages/Loghome" */))
+const _3e64f0bc = () => interopDefault(import('..\\pages\\SingleLog.vue' /* webpackChunkName: "pages/SingleLog" */))
+const _2082f62d = () => interopDefault(import('..\\pages\\SuperUserLoghome.vue' /* webpackChunkName: "pages/SuperUserLoghome" */))
+const _2a402384 = () => interopDefault(import('..\\pages\\UpdateUser.vue' /* webpackChunkName: "pages/UpdateUser" */))
+const _6cbb10d2 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _d1c9c08c = () => interopDefault(import('..\\pages\\_id.vue' /* webpackChunkName: "pages/_id" */))
 
 const emptyFn = () => {}
 
@@ -26,35 +26,35 @@ export const routerOptions = {
 
   routes: [{
     path: "/AllUsers",
-    component: _30d8af53,
+    component: _6c8dd4b7,
     name: "AllUsers"
   }, {
     path: "/CreateUserLog",
-    component: _8c7f17be,
+    component: _551f0d3d,
     name: "CreateUserLog"
   }, {
     path: "/Loghome",
-    component: _09718532,
+    component: _793448fa,
     name: "Loghome"
   }, {
     path: "/SingleLog",
-    component: _037569a0,
+    component: _3e64f0bc,
     name: "SingleLog"
   }, {
     path: "/SuperUserLoghome",
-    component: _c9f1166e,
+    component: _2082f62d,
     name: "SuperUserLoghome"
   }, {
     path: "/UpdateUser",
-    component: _073ec720,
+    component: _2a402384,
     name: "UpdateUser"
   }, {
     path: "/",
-    component: _38939bb6,
+    component: _6cbb10d2,
     name: "index"
   }, {
     path: "/:id",
-    component: _a6bdd8c4,
+    component: _d1c9c08c,
     name: "id"
   }],
 
